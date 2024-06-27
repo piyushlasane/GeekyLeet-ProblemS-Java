@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class HightChecker {
+class Solution{
     public int heightChecker(int[] heights) {
         int[] expected = heights.clone();
         Arrays.sort(expected);
@@ -12,7 +12,9 @@ public class HightChecker {
         }
         return ans;
     }
+}
 
+public class HightChecker {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
@@ -25,13 +27,10 @@ public class HightChecker {
             heightsArray[i] = sc.nextInt();
         }
 
+        Solution solver = new Solution();
         
-        HightChecker solver = new HightChecker();
-        
-        // Call the heightChecker method
         int result = solver.heightChecker(heightsArray);
         
-        // Print the result
         System.out.println("Number of students in the wrong positions: " + result);
         sc.close();
     }
