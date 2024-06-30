@@ -1,9 +1,3 @@
-## 27. Remove Element
-The problem can be found at the following link: [Question Link](https://leetcode.com/problems/remove-element/)
-
-### Code
-
-```java
 import java.util.Scanner;
 
 class Solution {
@@ -47,4 +41,3 @@ public class RemoveElement {
         sc.close();
     }
 }
-```
