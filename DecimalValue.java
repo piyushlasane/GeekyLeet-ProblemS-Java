@@ -8,19 +8,24 @@ class ListNode {
 
 class Solution {
     public int getDecimalValue(ListNode head) {
-        int dec = 0;
-        StringBuilder s = new StringBuilder();
-        while (head != null) {
-            s.append(head.val);
-            head = head.next;
+        // int dec = 0;
+        // StringBuilder s = new StringBuilder();
+        // while (head != null) {
+        //     s.append(head.val);
+        //     head = head.next;
+        // }
+        // s.reverse();
+        // for (int i = 0, k = 0; i < s.length(); i++, k++) {
+        //     if (s.charAt(i) == '1') {
+        //         dec += Math.pow(2, k);
+        //     }
+        // }
+        // return dec;
+        int ans=0;
+        for(;head!=null;head=head.next){
+            ans = ans<<1 | head.val;
         }
-        s.reverse();
-        for (int i = 0, k = 0; i < s.length(); i++, k++) {
-            if (s.charAt(i) == '1') {
-                dec += Math.pow(2, k);
-            }
-        }
-        return dec;
+        return ans;
     }
 }
 
