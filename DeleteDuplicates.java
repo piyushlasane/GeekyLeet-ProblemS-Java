@@ -30,11 +30,6 @@ public class DeleteDuplicates {
         System.out.println("Enter the number of elements in the linked list: ");
         int n = sc.nextInt();
 
-        if (n == 0) {
-            System.out.println("The linked list is empty.");
-            return;
-        }
-
         System.out.println("Enter the elements: ");
         ListNode head = new ListNode(sc.nextInt());
         ListNode current = head;
