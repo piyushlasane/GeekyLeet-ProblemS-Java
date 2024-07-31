@@ -2,18 +2,15 @@ import java.util.Scanner;
 
 class Solution {
     public int[] twoSum(int[] nums, int target) {
-        int[] res = new int[2];
-        int k = 0;
-        for (int i = 0; i < nums.length; i++) {
-            for (int j = i + 1; j < nums.length; j++) { // j starts from i + 1 to avoid using the same element twice
-                if (nums[i] + nums[j] == target) {
-                    res[k++] = i;
-                    res[k++] = j;
-                    return res;
+        for(int i=0; i<nums.length; i++){
+            for(int j=1; j<nums.length; j++){
+                if(i==j) continue;
+                if(nums[i]+nums[j]==target){
+                    return new int[] {i, j};
                 }
             }
         }
-        return res;
+        return new int[0];
     }
 }
 
