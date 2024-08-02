@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 class Solution {
     public boolean isPalindrome(int x) {
-        if (x < 0)
+        if (0 > x)
             return false;
         int y = x;
         long rev = 0;
