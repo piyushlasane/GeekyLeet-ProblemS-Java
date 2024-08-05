@@ -7,9 +7,9 @@ class Solution {
             if ((i * i) + (k * k) == c)
                 return true;
             else if ((i * i) + (k * k) > c)
-                k--;
+                --k;
             else
-                i++;
+                ++i;
         }
         return false;
     }
