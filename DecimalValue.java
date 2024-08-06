@@ -8,6 +8,7 @@ class ListNode {
 
 class Solution {
     public int getDecimalValue(ListNode head) {
+        
         // int dec = 0;
         // StringBuilder s = new StringBuilder();
         // while (head != null) {
@@ -21,6 +22,7 @@ class Solution {
         //     }
         // }
         // return dec;
+        
         int ans=0;
         for(;head!=null;head=head.next){
             ans = ans<<1 | head.val;
