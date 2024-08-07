@@ -8,10 +8,10 @@ class ListNode {
 
 class Solution {
     public ListNode middleNode(ListNode head) {
-        ListNode fast = head;
-        while (fast != null && fast.next != null) {
+        ListNode hare = head;
+        while (hare != null && hare.next != null) {
             head = head.next;
-            fast = fast.next.next;
+            hare = hare.next.next;
         }
         return head;
     }
