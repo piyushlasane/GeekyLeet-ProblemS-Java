@@ -15,16 +15,16 @@ class Solution {
 
 public class Reverse {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter an integer: ");
-        int x = sc.nextInt();
+        int x = scanner.nextInt();
 
         Solution solution = new Solution();
         int result = solution.reverse(x);
 
         System.out.println("Reversed integer: " + result);
 
-        sc.close();
+        scanner.close();
     }
 }
