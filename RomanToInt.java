@@ -11,12 +11,12 @@ class Solution {
             m.put(RI.charAt(i), DI[i]);
         }
         int n = s.length();
-        int ans = m.get(s.charAt(n - 1));
+        int res = m.get(s.charAt(n - 1));
         for (int i = 0; i < n - 1; ++i) {
             int sign = d.get(s.charAt(i)) < m.get(s.charAt(i + 1)) ? -1 : 1;
-            ans += sign * m.get(s.charAt(i));
+            res += sign * m.get(s.charAt(i));
         }
-        return ans;
+        return res;
     }
 }
 
