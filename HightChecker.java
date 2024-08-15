@@ -4,13 +4,13 @@ class Solution{
     public int heightChecker(int[] heights) {
         int[] expected = heights.clone();
         Arrays.sort(expected);
-        int ans = 0;
+        int res = 0;
         for (int i = 0; i < expected.length; i++) {
             if (expected[i] != heights[i]) {
-                ans++;
+                res++;
             }
         }
-        return ans;
+        return res;
     }
 }
 
