@@ -23,9 +23,8 @@ public class TwoSum {
         int[] nums = new int[n];
 
         System.out.println("Enter the elements of the array:");
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++)
             nums[i] = scanner.nextInt();
-        }
 
         System.out.print("Enter the target sum: ");
         int target = scanner.nextInt();
