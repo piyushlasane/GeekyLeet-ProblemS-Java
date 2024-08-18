@@ -2,8 +2,8 @@ import java.util.Scanner;
 
 class Solution {
     public int strStr(String haystack, String needle) {
-        int index = haystack.indexOf(needle);
-        return index;
+        int idx = haystack.indexOf(needle);
+        return idx;
     }
 }
 
