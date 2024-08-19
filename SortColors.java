@@ -38,13 +38,9 @@ class Solution {
     public void sortColors(int[] nums) {
         int i = 0, j = nums.length, k = 0;
         while (k < j) {
-            if (nums[k] == 0) {
-                swap(nums, i++, k++);
-            } else if (nums[k] == 2) {
-                swap(nums, --j, k);
-            } else {
-                ++k;
-            }
+            if (nums[k] == 0) swap(nums, i++, k++);
+            else if (nums[k] == 2) swap(nums, --j, k);
+            else ++k;
         }
     }
 
