@@ -32,10 +32,10 @@ class Solution {
     }
 }
 
+
 public class spiralOrder {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        
         // Description of the code
         System.out.println("This program reads a matrix input from the user and returns the elements in spiral order.");
         System.out.println("Enter the number of test cases:");
