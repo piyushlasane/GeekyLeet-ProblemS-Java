@@ -1,3 +1,4 @@
+```java
 import java.util.Scanner;
 
 public class SortColors {
@@ -50,3 +51,5 @@ class Solution {
         nums[j] = t;
     }
 }
+
+```

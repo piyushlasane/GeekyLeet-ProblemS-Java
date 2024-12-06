@@ -1,3 +1,4 @@
+```java
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -36,3 +37,5 @@ public class MinIncrementForUnique {
         scanner.close();
     }
 }
+
+```

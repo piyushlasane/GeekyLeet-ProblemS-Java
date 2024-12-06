@@ -1,3 +1,4 @@
+```java
 import java.util.*;
 
 class Solution {
@@ -40,3 +41,4 @@ public class DifferenceOfSums {
         scanner.close();
     }
 }
+```

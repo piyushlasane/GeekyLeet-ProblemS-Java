@@ -1,3 +1,4 @@
+```java
 import java.util.Scanner;
 import java.util.Deque;
 import java.util.ArrayDeque;
@@ -35,3 +36,5 @@ public class IsValid {
         sc.close();
     }
 }
+
+```

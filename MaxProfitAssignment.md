@@ -1,3 +1,4 @@
+```java
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -57,3 +58,4 @@ public class MaxProfitAssignment {
         sc.close();
     }
 }
+```

@@ -1,3 +1,4 @@
+```java
 import java.util.*;
 
 class Solution {
@@ -42,3 +43,5 @@ public class NonRepeatingChar {
         scanner.close();
     }
 }
+
+```
