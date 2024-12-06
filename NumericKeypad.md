@@ -1,4 +1,3 @@
-##code
 ## code
 ```java
 import java.util.ArrayList;
