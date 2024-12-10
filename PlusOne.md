@@ -1,5 +1,6 @@
+## 66. Plus One
 ## Question
-The problem can be found at the following link: [Question Link](PasteLink)
+The problem can be found at the following link: [Question Link](https://leetcode.com/problems/plus-one/description/)
 
 ### Code
 

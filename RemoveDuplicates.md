@@ -1,5 +1,6 @@
+## 26. Remove Duplicates from Sorted Array
 ## Question
-The problem can be found at the following link: [Question Link](PasteLink)
+The problem can be found at the following link: [Question Link](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
 
 ### Code
 
