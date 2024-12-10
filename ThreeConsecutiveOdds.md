@@ -1,5 +1,4 @@
 ## 1550. Three Consecutive Odds
-## Question
 The problem can be found at the following link: [Question Link](https://leetcode.com/problems/three-consecutive-odds/description/)
 
 ### Code

@@ -1,5 +1,4 @@
 ## 75. Sort Colors
-## Question
 The problem can be found at the following link: [Question Link](https://leetcode.com/problems/sort-colors/)
 
 ### Code

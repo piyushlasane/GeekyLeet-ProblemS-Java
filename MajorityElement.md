@@ -1,5 +1,4 @@
 ## 169. Majority Element
-## Question
 The problem can be found at the following link: [Question Link](https://leetcode.com/problems/majority-element/)
 
 ### Code

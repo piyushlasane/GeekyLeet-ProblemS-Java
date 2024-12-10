@@ -1,5 +1,4 @@
 ## 7. Reverse Integer
-## Question
 The problem can be found at the following link: [Question Link](https://leetcode.com/problems/reverse-integer/)
 
 ### Code

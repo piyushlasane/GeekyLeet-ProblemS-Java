@@ -1,5 +1,4 @@
 ## 14. Longest Common Prefix
-## Question
 The problem can be found at the following link: [Question Link](https://leetcode.com/problems/longest-common-prefix/)
 
 ### Code

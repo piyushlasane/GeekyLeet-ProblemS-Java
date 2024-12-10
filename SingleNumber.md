@@ -1,5 +1,4 @@
 ## 136. Single Number
-## Question
 The problem can be found at the following link: [Question Link](https://leetcode.com/problems/single-number/description/)
 
 ### Code

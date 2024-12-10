@@ -1,5 +1,4 @@
 ## 17. Letter Combinations of a Phone Number
-## Question
 The problem can be found at the following link: [Question Link](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/)
 
 ### Code

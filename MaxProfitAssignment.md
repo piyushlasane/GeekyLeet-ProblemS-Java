@@ -1,5 +1,4 @@
 ## 826. Most Profit Assigning Work
-## Question
 The problem can be found at the following link: [Question Link](https://leetcode.com/problems/most-profit-assigning-work/)
 
 ### Code
