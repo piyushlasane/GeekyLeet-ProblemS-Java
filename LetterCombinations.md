@@ -1,4 +1,8 @@
-## Code
+## [Question]
+The problem can be found at the following link: [Question Link](PasteLink)
+
+### Code
+
 ```java
 import java.util.Scanner;
 import java.util.List;
