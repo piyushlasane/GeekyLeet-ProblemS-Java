@@ -1,5 +1,5 @@
-## Question
-The problem can be found at the following link: [Question Link](PasteLink)
+## 83. Remove Duplicates from Sorted List
+The problem can be found at the following link: [Question Link](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/)
 
 ### Code
 
