@@ -1,4 +1,4 @@
-## [Question]
+## Question
 The problem can be found at the following link: [Question Link](PasteLink)
 
 ### Code
