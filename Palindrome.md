@@ -1,5 +1,5 @@
 ## 9. Palindrome Number
-The problem can be found at the following link: [Question Link](Pasthttps://leetcode.com/problems/palindrome-number/description/eLink)
+The problem can be found at the following link: [Question Link](https://leetcode.com/problems/palindrome-number/description/)
 
 ### Code
 
