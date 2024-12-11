@@ -1,5 +1,5 @@
-## Question
-The problem can be found at the following link: [Question Link](PasteLink)
+## 9. Palindrome Number
+The problem can be found at the following link: [Question Link](Pasthttps://leetcode.com/problems/palindrome-number/description/eLink)
 
 ### Code
 
@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 class Solution {
     public boolean isPalindrome(int x) {
-        if (0 > x)
+        if (x > 0)
             return false;
         int y = x;
         long rev = 0;
