@@ -1,7 +1,6 @@
 ## Compare two fractions
 The problem can be found at the following link: [Question Link](https://www.geeksforgeeks.org/problems/compare-two-fractions4438/1)
 
-
 ### Code
 
 ```java
